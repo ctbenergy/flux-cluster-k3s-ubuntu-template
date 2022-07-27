@@ -182,7 +182,7 @@ In order to use Terraform and `cert-manager` with the Cloudflare DNS challenge y
 
 📍 Here we will be running a Ansible Playbook to prepare Ubuntu Server for running a Kubernetes cluster.
 
-📍 Nodes are not security hardened by default, you can do this with [dev-sec/ansible-collection-hardening](https://github.com/dev-sec/ansible-collection-hardening) or similar if it supports Ubuntu 22.04 Server. The hardening files will be made available soon within this repository.
+📍 Nodes are not security hardened by default, you can do this with [dev-sec/ansible-collection-hardening](https://github.com/dev-sec/ansible-collection-hardening) or similar if it supports Ubuntu 22.04 Server e.g. https://github.com/konstruktoid/ansible-role-hardening. 
 
 1. Ensure you are able to SSH into your nodes from your workstation using a private SSH key **without a passphrase**. This is how Ansible is able to connect to your remote nodes.
 
