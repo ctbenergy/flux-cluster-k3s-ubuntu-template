@@ -4,6 +4,13 @@ Highly opinionated *untested* template for deploying a single [k3s](https://k3s.
 
 The purpose here is to showcase how you can deploy an entire Kubernetes cluster and show it off to the world using the [GitOps](https://www.weave.works/blog/what-is-gitops-really) tool [Flux](https://toolkit.fluxcd.io/). When completed, your Git repository will be driving the state of your Kubernetes cluster. In addition with the help of the [Ansible](https://github.com/ansible-collections/community.sops), [Terraform](https://github.com/carlpett/terraform-provider-sops) and [Flux](https://toolkit.fluxcd.io/guides/mozilla-sops/) SOPS integrations you'll be able to commit [Age](https://github.com/FiloSottile/age) encrypted secrets to your public repo.
 
+#### Note
+Credits goes to https://github.com/onedr0p. Fedora server support has been removed and Ubuntu server support is reinstated. This repo is kept closely in sync as possible with the source repository https://github.com/k8s-at-home/flux-cluster-template. See also [Swap to Fedora Server #389](https://github.com/k8s-at-home/flux-cluster-template/issues/389). 
+Untested template in the sence that this repo has not yet been validated against an Ubuntu server node (VM or bare-metal).
+
+#### Latest sync commit
+Jul 31, 2022 #423 https://github.com/k8s-at-home/flux-cluster-template/commits/main
+
 ## Overview
 
 - [Introduction](https://github.com/k8s-at-home/flux-cluster-template#-introduction)
