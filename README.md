@@ -11,6 +11,15 @@ Untested template in the sence that this repo has not yet been validated against
 #### Latest sync commit
 Jul 31, 2022 #423 https://github.com/k8s-at-home/flux-cluster-template/commits/main
 
+#### Targetted support and/or integrations (future upcoming new features)
+1. https://github.com/travisghansen/kubernetes-pfsense-controller
+2. https://github.com/konstruktoid/ansible-role-hardening
+3. [Rancher](https://rancher.com/products/rancher)
+4. [Longhorn](https://rancher.com/products/longhorn)
+5. Optional: [GitLab](https://about.gitlab.com) support
+6. Optional: [TrueNAS Scale](https://www.truenas.com/truenas-scale/) support
+7. Optional: [Security information and event management](https://thenewstack.io/what-separates-an-siem-platform-from-a-logging-tool/) (SIEM) support
+
 ## Overview
 
 - [Introduction](https://github.com/k8s-at-home/flux-cluster-template#-introduction)
