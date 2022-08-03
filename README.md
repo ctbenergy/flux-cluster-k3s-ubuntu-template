@@ -6,19 +6,10 @@ The purpose here is to showcase how you can deploy an entire Kubernetes cluster 
 
 #### Note
 Credits goes to https://github.com/onedr0p. Fedora server support has been removed and Ubuntu server support is reinstated. This repo is kept closely in sync as possible with the source repository https://github.com/k8s-at-home/flux-cluster-template. See also [Swap to Fedora Server #389](https://github.com/k8s-at-home/flux-cluster-template/issues/389). 
-Untested template in the sence that this repo has not yet been validated against an Ubuntu server node (VM or bare-metal).
+Untested template in the sense that this repo has not yet been validated against an Ubuntu server node (VM or bare-metal).
 
 #### Latest sync commit
 Jul 31, 2022 #423 https://github.com/k8s-at-home/flux-cluster-template/commits/main
-
-#### Targetted support and/or integrations (future upcoming new features)
-1. https://github.com/travisghansen/kubernetes-pfsense-controller
-2. https://github.com/konstruktoid/ansible-role-hardening
-3. [Rancher](https://rancher.com/products/rancher)
-4. [Longhorn](https://rancher.com/products/longhorn)
-5. Optional: [GitLab](https://about.gitlab.com) support
-6. Optional: [TrueNAS Scale](https://www.truenas.com/truenas-scale/) support
-7. Optional: [Security information and event management](https://thenewstack.io/what-separates-an-siem-platform-from-a-logging-tool/) (SIEM) support
 
 ## Overview
 
