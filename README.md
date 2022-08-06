@@ -9,7 +9,7 @@ Credits goes to https://github.com/onedr0p. Fedora server support has been remov
 Untested template in the sense that this repo has not yet been validated against an Ubuntu server node (VM or bare-metal).
 
 #### Latest sync commit
-Jul 31, 2022 #423 https://github.com/k8s-at-home/flux-cluster-template/commits/main
+Aug 6, 2022 #426-#428 https://github.com/k8s-at-home/flux-cluster-template/commits/main
 
 ## Overview
 
